@@ -1,0 +1,17 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "iostream": "cpp",
+        "vector": "cpp",
+        "queue": "cpp",
+        "array": "cpp",
+        "bitset": "cpp",
+        "initializer_list": "cpp",
+        "regex": "cpp",
+        "utility": "cpp",
+        "valarray": "cpp",
+        "ostream": "cpp",
+        "condition_variable": "cpp",
+        "future": "cpp"
+    }
+}
