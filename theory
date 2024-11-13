@@ -1,67 +1,71 @@
-Here's a quick summary of the algorithms you listed, along with their time and space complexities and some common applications:
+1. Linear Search
 
----
+    Time Complexity: O(n)
+    Space Complexity: O(1)
+    Application: Useful for small datasets or unsorted data where finding an element by scanning each item sequentially is viable.
 
-### 1. **Linear Search**
-   - **Time Complexity**: O(n)
-   - **Space Complexity**: O(1)
-   - **Application**: Useful for small datasets or unsorted data where finding an element by scanning each item sequentially is viable.
+2. Binary Search
 
-### 2. **Binary Search**
-   - **Time Complexity**: O(log n) (only works on sorted arrays)
-   - **Space Complexity**: O(1) for iterative, O(log n) for recursive
-   - **Application**: Efficient for finding elements in sorted arrays, commonly used in databases and search applications.
+    Time Complexity: O(log n) (only works on sorted arrays)
+    Space Complexity: O(1) for iterative, O(log n) for recursive
+    Application: Efficient for finding elements in sorted arrays, commonly used in databases and search applications.
 
-### 3. **Merge Sort**
-   - **Time Complexity**: O(n log n)
-   - **Space Complexity**: O(n) (due to auxiliary space for merging)
-   - **Application**: Widely used in external sorting and scenarios where stable sorting is needed, such as sorting large datasets stored on external storage.
+3. Merge Sort
 
-### 4. **Quick Sort**
-   - **Time Complexity**: O(n log n) on average, O(n^2) in worst case
-   - **Space Complexity**: O(log n) for recursive calls
-   - **Application**: Popular in various libraries (like C++ STL) for its efficiency in average cases; often used in database sorting and randomized applications.
+    Time Complexity: O(n log n)
+    Space Complexity: O(n) (due to auxiliary space for merging)
+    Application: Widely used in external sorting and scenarios where stable sorting is needed, such as sorting large datasets stored on external storage.
 
-### 5. **Dijkstra's Algorithm**
-   - **Time Complexity**: O(V^2) (using simple arrays), O(E + V log V) (using priority queue/heap)
-   - **Space Complexity**: O(V)
-   - **Application**: Shortest path in weighted graphs, like routing and navigation systems, network routing protocols, and transportation networks.
+4. Quick Sort
 
-### 6. **Prim's Algorithm**
-   - **Time Complexity**: O(V^2) (using simple arrays), O(E log V) (using priority queue/heap)
-   - **Space Complexity**: O(V)
-   - **Application**: Minimum Spanning Tree for networks, especially in designing network circuits, road networks, or clustering algorithms.
+    Time Complexity: O(n log n) on average, O(n^2) in worst case
+    Space Complexity: O(log n) for recursive calls
+    Application: Popular in various libraries (like C++ STL) for its efficiency in average cases; often used in database sorting and randomized applications.
 
-### 7. **Kruskal's Algorithm**
-   - **Time Complexity**: O(E log E) or O(E log V) (due to sorting edges)
-   - **Space Complexity**: O(E)
-   - **Application**: Minimum Spanning Tree, used in network design (e.g., minimizing wiring costs), and various clustering algorithms.
+5. Dijkstra's Algorithm
 
-### 8. **Floyd-Warshall Algorithm**
-   - **Time Complexity**: O(V^3)
-   - **Space Complexity**: O(V^2)
-   - **Application**: All-pairs shortest paths, useful in network routing, especially when all path lengths need to be evaluated between all pairs, like in communication networks.
+    Time Complexity: O(V^2) (using simple arrays), O(E + V log V) (using priority queue/heap)
+    Space Complexity: O(V)
+    Application: Shortest path in weighted graphs, like routing and navigation systems, network routing protocols, and transportation networks.
 
-### 9. **0/1 Knapsack Problem**
-   - **Time Complexity**: O(n * W) where `W` is the maximum weight
-   - **Space Complexity**: O(n * W) (can be optimized to O(W) using 1D array)
-   - **Application**: Resource allocation problems where items cannot be split, like budgeting or storage optimization.
+6. Prim's Algorithm
 
-### 10. **Fractional Knapsack Problem**
-   - **Time Complexity**: O(n log n) (due to sorting)
-   - **Space Complexity**: O(1)
-   - **Application**: Resource allocation where items can be broken into smaller parts, such as maximizing profit in stock portfolios or fractional investments.
+    Time Complexity: O(V^2) (using simple arrays), O(E log V) (using priority queue/heap)
+    Space Complexity: O(V)
+    Application: Minimum Spanning Tree for networks, especially in designing network circuits, road networks, or clustering algorithms.
 
-### 11. **Optimal Merge Pattern**
-   - **Time Complexity**: O(n log n)
-   - **Space Complexity**: O(n)
-   - **Application**: Efficiently merging multiple sorted files (e.g., databases or media files) to minimize total merge cost.
+7. Kruskal's Algorithm
 
-### 12. **N-Queens Problem**
-   - **Time Complexity**: O(n!) (exponential backtracking solution)
-   - **Space Complexity**: O(n^2) (for storing board state)
-   - **Application**: Constraint satisfaction problems, used in AI for developing backtracking solutions and understanding optimization techniques.
+    Time Complexity: O(E log E) or O(E log V) (due to sorting edges)
+    Space Complexity: O(E)
+    Application: Minimum Spanning Tree, used in network design (e.g., minimizing wiring costs), and various clustering algorithms.
 
----
+8. Floyd-Warshall Algorithm
 
-Let me know if you'd like to go deeper into any specific algorithm or concept!
+    Time Complexity: O(V^3)
+    Space Complexity: O(V^2)
+    Application: All-pairs shortest paths, useful in network routing, especially when all path lengths need to be evaluated between all pairs, like in communication networks.
+
+9. 0/1 Knapsack Problem
+
+    Time Complexity: O(n * W) where W is the maximum weight
+    Space Complexity: O(n * W) (can be optimized to O(W) using 1D array)
+    Application: Resource allocation problems where items cannot be split, like budgeting or storage optimization.
+
+10. Fractional Knapsack Problem
+
+    Time Complexity: O(n log n) (due to sorting)
+    Space Complexity: O(1)
+    Application: Resource allocation where items can be broken into smaller parts, such as maximizing profit in stock portfolios or fractional investments.
+
+11. Optimal Merge Pattern
+
+    Time Complexity: O(n log n)
+    Space Complexity: O(n)
+    Application: Efficiently merging multiple sorted files (e.g., databases or media files) to minimize total merge cost.
+
+12. N-Queens Problem
+
+    Time Complexity: O(n!) (exponential backtracking solution)
+    Space Complexity: O(n^2) (for storing board state)
+    Application: Constraint satisfaction problems, used in AI for developing backtracking solutions and understanding optimization techniques.
